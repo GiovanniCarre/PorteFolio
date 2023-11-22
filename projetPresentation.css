@@ -1,0 +1,57 @@
+section{
+    text-align:center;
+}
+
+#buttonRight{
+    width:40%;
+    text-align:center;
+    font-size:2em;
+    height:auto;
+    display:inline-block;
+    margin-left:5%;
+    
+    
+}
+
+#buttonLeft{
+    width:40%;
+    margin-right:5%;
+    text-align:center;
+    font-size:2em;
+    height:auto;
+    display:inline-block;
+}
+
+h1{
+    font-size:2em;
+    font-weight:1000;
+}
+section{
+    background-color:var(--couleur2);
+}
+
+#listButton{
+    text-align:left;
+    color:blue;
+    text-decoration:underline;
+    margin-left:10px;
+}
+
+#img{
+    width:30%;
+    margin-bottom:30px;
+}
+
+@media (max-width: 950px) {
+    #buttonRight{
+        margin-left:0px;
+    }
+    h1{
+        font-size:1.5em;
+    }
+    #img{
+        width:95%;
+    }
+    
+    
+}

@@ -1,0 +1,135 @@
+section{
+    text-align:center;
+    background-color:var(--couleur1);
+    color:var(--couleur2);
+}
+
+h1{
+    font-weight:1000;
+    font-size:2em;
+    color:var(--couleur3);
+}
+
+#searchInput{
+    width:30%;
+    margin-bottom:15px;
+    font-size:1.5em;
+    text-align:center;
+}
+
+#themeFilter{
+    width:20%;
+    font-size:1.2em;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+body{
+    background-color:var(--couleur1);
+}
+
+.projects-container{
+    margin-left:10%;
+    display:inline-block;
+    width:80%;
+}
+
+.projetDiv{
+    
+    background-color:var(--couleur2);
+    color:var(--couleur1);
+    display:inline-block;
+    width:80%;
+    margin-bottom:30px;
+    border:2px solid black;
+    border-radius:20px;
+    text-align:left;
+}
+
+
+
+.projetDiv:hover{
+    border:2px solid var(--couleur3);
+}
+
+.panelLeftProjet{
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    width:75%;
+}
+
+.imgProjet{
+    width:100%;
+}
+
+.panelRightProjet{
+    display:inline-block;
+    vertical-align:middle;
+    width:23%;
+}
+
+
+.titleProjet{
+    margin:0px;
+    font-weight:1000;
+    font-size:1.8em;
+}
+.imgGit{
+    width:40px;
+}
+
+#search{
+    margin-bottom: 20px;
+}
+
+.date{
+    margin:0px;
+    margin-right:2em;
+    color:rgb(100,100,100);
+    font-style:italic;
+    font-size:0.9em;
+    text-align:right;
+}
+
+.descProjet{
+    margin:2px 5%;
+    font-style:italic;
+}
+.theme{
+    margin: 0px;
+      text-align: left;
+      padding-left: 20px;
+      color: rgb(100,100,100);
+      background-color: #CCC;
+      border-radius: 20px 20px 0px 0px;
+}
+
+
+
+@media (max-width: 950px) {
+    
+    section{
+        background-color:var(--couleur2);
+        color:var(--couleur1);
+    }
+    
+    .titleProjet{
+        font-size:1.2em;
+    }
+    
+    
+    .projetDiv{
+          border:none;
+          background-color:inherit;
+          width:100%;
+          height:auto;
+    }
+    #searchInput{
+        font-size:1.2em;
+        width:95%;
+    }
+    #themeFilter{
+        width:80%;
+    }
+}
